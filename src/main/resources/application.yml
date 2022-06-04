@@ -30,3 +30,8 @@ spring:
       idle-timeout: 60000
       max-lifetime: 1800000
       connection-timeout: 30000
+
+springdoc:
+  swagger-ui:
+    path: api-doc.html
+    operations-sorter: method
