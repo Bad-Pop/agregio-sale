@@ -31,7 +31,6 @@ fini mais plutôt que cela reflète votre approche du développement.
 - Vavr for functional programming
 - Hexagonal Architecture in a package implementation to save time (module implementation is better but longer)
 - AssertJ for fluent test assertions
-- Testcontainer for integration tests
 
 ### Database
 
