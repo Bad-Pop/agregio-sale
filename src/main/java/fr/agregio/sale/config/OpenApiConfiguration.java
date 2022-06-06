@@ -14,7 +14,7 @@ public class OpenApiConfiguration {
     return new OpenAPI()
         .info(
             new Info()
-                .title("Agregio Sale Open API Documentation")
+                .title("Agregio Sales Open API Documentation")
                 .description(
                     "REST API used to manage sales for day slots by parks and markets segmentation")
                 .version("v1.0.0-SNAPSHOT"))

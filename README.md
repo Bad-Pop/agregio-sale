@@ -43,5 +43,5 @@ To start the database, start the docker daemon on your computer and then at the 
 docker-compose up -d
 ```    
 
-In a real context, it would have been relevant to use a database migration tool like Liquibase or Flyway. However, in
+Warning : in a real context, it would have been relevant to use a database migration tool like Liquibase or Flyway. However, in
 order to respect the given instructions, we will exceptionally let Hibernate manage the database schema to save time.

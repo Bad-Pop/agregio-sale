@@ -7,7 +7,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EntityScan(basePackages = "fr.agregio.sale.infra")
-@EnableJpaRepositories(basePackages = "fr.agregio.sale.infra")
-public class JpaConfiguration {
-}
+@EntityScan(basePackages = "fr.agregio.sale.infra.postgres.entities")
+@EnableJpaRepositories(basePackages = "fr.agregio.sale.infra.postgres.repositories")
+public class JpaConfiguration {}
